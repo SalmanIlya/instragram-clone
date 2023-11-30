@@ -1,10 +1,9 @@
 import React from 'react'
 import "./Style.css"
-import Sidebar from '../Sidebar/Sidebar'
+
 const Home = () => {
   return (
     <div>
-        <Sidebar/>
     </div>
   )
 }
