@@ -1,0 +1,171 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    
+}
+.box-1{
+    height: 604.98px;
+    width: 350px;
+    border: 0.5px solid #DBDBDB;
+    /* margin:; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px 0px ; */
+}
+.text-box-1{
+    width: 270px;
+    height: 40px;
+    padding-bottom:60px ;
+    text-align: center;
+}
+.text-box-1 p {
+    font-size: 15px;
+    font-weight: 550;
+    color: #737392;
+}
+.instragram-logo{
+    height: 85px;
+    width: 175px;
+  /* margin-top: 20px; */
+}
+.input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.input{
+    width: 258px;
+    height: 36px;
+    border: 0.5px solid #DBDBDB;
+outline: none;
+padding: 9px 0 7px 8px;
+margin-bottom: 10px;
+font-size: 11.2px;
+border-radius: 4px;
+
+
+}
+.text-box-2{
+    font-size: 11px;
+    width: 268px;
+    height: 32px;
+    text-align: center;
+    color: #737A85;
+
+}
+.lines{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    height: 14.98px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.lines p{
+    margin: 0 18px;
+    color: #737A85;
+    font-size:11.5px;
+}
+.line-1,.line-2{
+    width: 100%;
+    border-bottom: 1px solid #DBDBDB;
+}
+.reg{
+    /* margin-top: 25px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reg .facebook{
+    color:white;
+    font-size: 18px;
+}
+.reg-text{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+.link-1{
+    margin-top: 25px;
+    font-size: 11.5px;
+    text-decoration: none;
+    color: #737A85;
+}
+.btn-1{
+    background-color: #4CB5F9;
+    width: 258px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn-2{
+    background-color: #0095F6;
+    width: 258px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.box-2{
+    width: 350px;
+    height: 63px;
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+    border: 0.5px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.box-2 p{
+    font-size: 13px;
+}
+.box-2 p a{
+    text-decoration: none;
+    font-weight: 650;
+    color: #31A1F7;
+}
+
+.box-3{
+    width: 350px;
+    height: 95px;
+}
+.text-box{
+    text-align: center;
+    margin: 5px;
+    font-size: 11.5px;
+}
+.img-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.botom-img{
+    width: 110.77px;
+    height: 40px;
+    margin: 5px;
+}
