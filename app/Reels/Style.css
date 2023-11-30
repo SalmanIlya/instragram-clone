@@ -1,0 +1,14 @@
+.main-reel{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+    .main-reel{
+        flex-direction:column-reverse !important;
+        /* justify-content: ; */
+    }
+}
