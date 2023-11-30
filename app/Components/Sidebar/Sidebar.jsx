@@ -11,6 +11,7 @@ import { FaRegHeart } from "react-icons/fa";
 import { FaRegSquarePlus } from "react-icons/fa6";
 import { BsFillPersonFill } from "react-icons/bs"
 import { FaInstagram } from "react-icons/fa6";
+import Link from "next/link";
 
 const Sidebar = () => {
 
@@ -28,44 +29,44 @@ const Sidebar = () => {
         <div className='sidar-nav-item '>
 
         {/*1 */}
-        <div className='nav-item-box'>
+        <Link  href={"/"} className='nav-item-box '>
             
         <GoHomeFill  className='text-2xl icon '/>
-        <h1 className="text" >Home</h1>
-        </div>
+        <h1 className={`text`} >Home</h1>
+        </Link>
         {/* 2 */}
-        <div className='nav-item-box h-box'>
+        <Link href={"/Search"} className='nav-item-box h-box'>
         <FiSearch className='text-2xl icon '/>
         <h1 className="text " >Search</h1>
-    </div>
+    </Link>
     {/* 3 */}
-    <div className='nav-item-box '>
+    <Link href={"/Explore"} className='nav-item-box '>
         <FaRegCompass className='text-2xl icon '/>
         <h1 className="text " >Explore</h1>
-    </div>
+    </Link>
     {/* 4 */}
-    <div className='nav-item-box'>
+    <Link href={"Reels"} className='nav-item-box'>
         < RiVideoLine className='text-2xl icon '/>
         <h1 className=' text '>Reels</h1>
-    </div>
+    </Link>
     {/* 5 */}
-    <div className='nav-item-box'>
+    <Link href={"/Messages"} className='nav-item-box'>
         <LiaFacebookMessenger className='text-2xl icon '/>
         <h1 className=' text'>Messages</h1>
-    </div>
+    </Link>
     {/* 6 */}
-    <div className='nav-item-box h-box'>
+    <Link href={"/Notifications"} className='nav-item-box h-box'>
         < FaRegHeart className='text-2xl icon '/>
         <h1 className=' text'>Notifications</h1>
-    </div>
+    </Link>
     {/* 7 */}
-    <div className='nav-item-box'>
+    <Link href={"/Post"} className='nav-item-box'>
         <FaRegSquarePlus  className='text-2xl icon '/>
-        <h1 className=' text'>Post</h1></div>
+        <h1 className=' text'>Post</h1></Link>
         {/* 8 */}
-        <div className='nav-item-box'>
+        <Link href={"/Profile"} className='nav-item-box'>
         <BsFillPersonFill  className='text-2xl icon '/>
-        <h1 className=' text'>Profile</h1></div>
+        <h1 className=' text'>Profile</h1></Link>
         </div>
 
   <div className='nav-item-box h-box'>
