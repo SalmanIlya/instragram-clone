@@ -8,7 +8,11 @@
 
 @media screen and (max-width: 767px) {
     .main-explore{
-        flex-direction:column-reverse !important;
+        /* flex-direction:column-reverse !important; */
         /* justify-content: ; */
+    }
+    .explore{
+        width: 100%;
+        /* position: relative; */
     }
 }
