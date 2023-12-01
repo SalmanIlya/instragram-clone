@@ -12,10 +12,8 @@ import { FaRegSquarePlus } from "react-icons/fa6";
 import { BsFillPersonFill } from "react-icons/bs"
 import { FaInstagram } from "react-icons/fa6";
 import Link from "next/link";
-
+import { usePathname,useRouter } from "next/navigation";
 const Sidebar = () => {
-
-
 
     return (
     <div className='sidebar'>
@@ -28,7 +26,7 @@ const Sidebar = () => {
         </div>
         <div className='sidar-nav-item '>
 
-        {/*1 */}
+       {/* 1 */}
         <Link  href={"/"} className='nav-item-box '>
             
         <GoHomeFill  className='text-2xl icon '/>
