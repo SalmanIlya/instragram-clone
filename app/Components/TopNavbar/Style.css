@@ -1,0 +1,38 @@
+.Navbar{
+    display: none;
+}
+
+@media screen and (max-width: 767px) {
+   .Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    padding: 0 1rem;
+    top: 0;
+    width: 100%;
+    height: 3.75rem;
+    border-bottom: 0.5px solid #DBDBDB;
+
+   }
+   .input-search-box{
+    width: 15rem;
+    height: 2.2rem;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    margin-right: 20px;
+   }
+   .input-search-box input {
+    background: transparent;
+    width: 11rem;
+    /* padding: 0 1rem; */
+   border: none;
+   outline: none;
+   }
+}
