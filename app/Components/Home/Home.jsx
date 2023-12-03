@@ -88,109 +88,115 @@ const Home = () => {
               <p className="text-xs text-black">see all</p>
             </div>
             <div>
-            <div className="person flex flex-row justify-between items-center px-4  mt-2">
-            <div className="flex flex-row justify-between">
-              <Image
-                src={"/images/par.jpg"}
-                alt=""
-                width={48}
-                height={48}
-                className="rounded-full h-12"
-              />
-              <div className="flex flex-col justify-center  mx-4">
-                {/*id name  */}
-                <h1 className="text-xs font-bold">my-id-name</h1>
-                {/* name  */}
-                <p className="font-light text-xs">Follows you</p>
-               
+              <div className="person flex flex-row justify-between items-center px-4  mt-2">
+                <div className="flex flex-row justify-between">
+                  <Image
+                    src={"/images/par.jpg"}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className="rounded-full h-12"
+                  />
+                  <div className="flex flex-col justify-center  mx-4">
+                    {/*id name  */}
+                    <h1 className="text-xs font-bold">my-id-name</h1>
+                    {/* name  */}
+                    <p className="font-light text-xs">Follows you</p>
+                  </div>
+                </div>
+
+                <p className="font-bold text-blue-400 text-xs ">Follow</p>
+              </div>
+              <div className="person flex flex-row justify-between items-center px-4  mt-2">
+                <div className="flex flex-row justify-between">
+                  <Image
+                    src={"/images/par.jpg"}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className="rounded-full h-12"
+                  />
+                  <div className="flex flex-col justify-center  mx-4">
+                    {/*id name  */}
+                    <h1 className="text-xs font-bold">my-id-name</h1>
+                    {/* name  */}
+                    <p className="font-light text-xs">Follows you</p>
+                  </div>
+                </div>
+
+                <p className="font-bold text-blue-400 text-xs ">Follow</p>
+              </div>
+              <div className="person flex flex-row justify-between items-center px-4  mt-2">
+                <div className="flex flex-row justify-between">
+                  <Image
+                    src={"/images/par.jpg"}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className="rounded-full h-12"
+                  />
+                  <div className="flex flex-col justify-center  mx-4">
+                    {/*id name  */}
+                    <h1 className="text-xs font-bold">my-id-name</h1>
+                    {/* name  */}
+                    <p className="font-light text-xs">Follows you</p>
+                  </div>
+                </div>
+
+                <p className="font-bold text-blue-400 text-xs ">Follow</p>
+              </div>
+              <div className="person flex flex-row justify-between items-center px-4  mt-2">
+                <div className="flex flex-row justify-between">
+                  <Image
+                    src={"/images/par.jpg"}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className="rounded-full h-12"
+                  />
+                  <div className="flex flex-col justify-center  mx-4">
+                    {/*id name  */}
+                    <h1 className="text-xs font-bold">my-id-name</h1>
+                    {/* name  */}
+                    <p className="font-light text-xs">Follows you</p>
+                  </div>
+                </div>
+
+                <p className="font-bold text-blue-400 text-xs ">Follow</p>
+              </div>
+              <div className="person flex flex-row justify-between items-center px-4  mt-2">
+                <div className="flex flex-row justify-between">
+                  <Image
+                    src={"/images/par.jpg"}
+                    alt=""
+                    width={48}
+                    height={48}
+                    className="rounded-full h-12"
+                  />
+                  <div className="flex flex-col justify-center  mx-4">
+                    {/*id name  */}
+                    <h1 className="text-xs font-bold">my-id-name</h1>
+                    {/* name  */}
+                    <p className="font-light text-xs">Follows you</p>
+                  </div>
+                </div>
+
+                <p className="font-bold text-blue-400 text-xs ">Follow</p>
               </div>
             </div>
-
-            <p className="font-bold text-blue-400 text-xs ">Follow</p>
           </div>
-          <div className="person flex flex-row justify-between items-center px-4  mt-2">
-            <div className="flex flex-row justify-between">
-              <Image
-                src={"/images/par.jpg"}
-                alt=""
-                width={48}
-                height={48}
-                className="rounded-full h-12"
-              />
-              <div className="flex flex-col justify-center  mx-4">
-                {/*id name  */}
-                <h1 className="text-xs font-bold">my-id-name</h1>
-                {/* name  */}
-                <p className="font-light text-xs">Follows you</p>
-               
-              </div>
+          <div>
+            <div className="flex flex-row justify-between items-center px-4 py-1  mt-5">
+              <p className="text-xs text-gray-400">
+                About Help Press API Jobs Privacy Terms Locations Language Meta
+                Verified
+              </p>
             </div>
-
-            <p className="font-bold text-blue-400 text-xs ">Follow</p>
-          </div>
-          <div className="person flex flex-row justify-between items-center px-4  mt-2">
-            <div className="flex flex-row justify-between">
-              <Image
-                src={"/images/par.jpg"}
-                alt=""
-                width={48}
-                height={48}
-                className="rounded-full h-12"
-              />
-              <div className="flex flex-col justify-center  mx-4">
-                {/*id name  */}
-                <h1 className="text-xs font-bold">my-id-name</h1>
-                {/* name  */}
-                <p className="font-light text-xs">Follows you</p>
-               
-              </div>
+            <div className="flex flex-row justify-between items-center px-4 py-1  mt-4">
+              <p className="text-xs  text-gray-400">
+                © 2023 INSTAGRAM FROM META{" "}
+              </p>
             </div>
-
-            <p className="font-bold text-blue-400 text-xs ">Follow</p>
-          </div>
-          <div className="person flex flex-row justify-between items-center px-4  mt-2">
-            <div className="flex flex-row justify-between">
-              <Image
-                src={"/images/par.jpg"}
-                alt=""
-                width={48}
-                height={48}
-                className="rounded-full h-12"
-              />
-              <div className="flex flex-col justify-center  mx-4">
-                {/*id name  */}
-                <h1 className="text-xs font-bold">my-id-name</h1>
-                {/* name  */}
-                <p className="font-light text-xs">Follows you</p>
-               
-              </div>
-            </div>
-
-            <p className="font-bold text-blue-400 text-xs ">Follow</p>
-          </div>
-          <div className="person flex flex-row justify-between items-center px-4  mt-2">
-            <div className="flex flex-row justify-between">
-              <Image
-                src={"/images/par.jpg"}
-                alt=""
-                width={48}
-                height={48}
-                className="rounded-full h-12"
-              />
-              <div className="flex flex-col justify-center  mx-4">
-                {/*id name  */}
-                <h1 className="text-xs font-bold">my-id-name</h1>
-                {/* name  */}
-                <p className="font-light text-xs">Follows you</p>
-               
-              </div>
-            </div>
-
-            <p className="font-bold text-blue-400 text-xs ">Follow</p>
-          </div>
-         
-            </div>
-
           </div>
         </div>
       </div>
