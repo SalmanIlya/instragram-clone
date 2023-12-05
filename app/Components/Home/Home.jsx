@@ -56,6 +56,21 @@ const Home = () => {
               <p>name </p>
             </div>
           </div>
+{/* post  */}
+
+<div className="mt-5 mx-32 flex flex-col justify-center items-center ">
+  {/* top  */}
+  <div className="flex flex-row justify-start w-full">
+<Image src={"/images/par.jpg"} height={40} width={40} className="rounded-full h-10 mr-2"  />
+
+<p>Name</p>
+  </div>
+
+  <div>
+    {/* <ReactPlayer  className="mt-2 scroll-images  flex flex-row items-center border-2 border-black" height=" 40.8rem" width="23.9rem" url="https://youtu.be/wtryFHT1VRg?si=UdCUVqJLk10CygQ1"/> */}
+  </div>
+</div>
+
         </div>
         <div className="home-box-2">
           <div className="person flex flex-row justify-between items-center px-4  mt-9">
