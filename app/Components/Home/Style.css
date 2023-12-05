@@ -33,6 +33,11 @@
     height: 40.8rem;
     padding: 0 0 0 64px;
 }
+.scroll-images{
+    width: 24rem;
+    height: 30rem;
+    border-radius: 5px;
+}
 @media screen and (max-width: 1160px) {
     .home-box-2{
         display: none;
